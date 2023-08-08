@@ -1,4 +1,4 @@
-function listTrade() {
+function listTrade(e) {
     axios.get('http://localhost:3000/trades').then((res) => {
         let data = res.data;
         console.log(res.data)

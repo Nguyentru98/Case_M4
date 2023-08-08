@@ -9,8 +9,8 @@ function findById(id) {
          document.getElementById('amountAE').value= data.amount,
          document.getElementById('typeAE').value= data.type,
          document.getElementById('tradeTypeAE').value= data.tradeTypeId
+         console.log(data)
   });
-  console.log(data)
 }
 
 
