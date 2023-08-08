@@ -32,10 +32,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
     <script src="../src/home/trade/list.js"></script>
     <script src="../src/home/trade/totalMoney.js"></script>
-    <script src="../src/home/trade/totalMoney.js"></script>
     <script src="../src/home/trade/add.js"></script>
     <script src="../src/home/trade/delete.js"></script>
     <script src="../src/home/trade/edit.js"></script>
+    <script src="../src/home/trade/search.js"></script>
+    <script src="../src/home/home.js"></script>
+    <script src="../src/home/login.js"></script>
+    <script src="../src/home/register.js"></script>
 </head>
 
 <body>
@@ -186,7 +189,7 @@
         </nav>
         <!-- Navbar End -->
 
-
+        
         <!-- Sale & Revenue Start -->
         <div class="container-fluid pt-4 px-4">
             <div class="row g-4">
@@ -194,7 +197,7 @@
                     <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
                         <i class="fa fa-chart-line fa-3x text-primary"></i>
                         <div class="ms-3" id="totalMoney">
-                            <script>totalMoney()</script>
+                            
                         </div>
                     </div>
                 </div>
@@ -264,8 +267,8 @@
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Transaction Type</label>
                                 <select class="form-select mb-3" aria-label="Default select example" id="typeAE">
-                                    <option value="1">Revenue</option>
-                                    <option value="2">Pay</option>
+                                    <option value="Revenue">Revenue</option>
+                                    <option value="Pay">Pay</option>
                                 </select>
                             </div>
                             <div class="mb-3">
@@ -337,7 +340,7 @@
                                                        <th scope="col">Trading name</th>
                                                        <th scope="col">Transaction type</th>
                                                        <th scope="col">Amount</th>
-                                                       <th scope="col">User</th>
+                                                       <!-- <th scope="col">User</th> -->
                                                        <th scope="col">Action</th>
                                                    </tr>
                                                </thead>
@@ -399,6 +402,8 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+
+        <script>totalMoney()</script>
 </body>
 
 </html>

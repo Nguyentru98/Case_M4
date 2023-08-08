@@ -9,5 +9,9 @@ function save() {
     };
     axios.post('http://localhost:3000/trades', data).then((res) => {
         listTrade() ;
+        listTrade();
+        totalPay();
+        totalRevenue();
+        totalMoney();
     });
 }

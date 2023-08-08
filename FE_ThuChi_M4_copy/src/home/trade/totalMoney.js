@@ -1,4 +1,5 @@
 function totalPay() {
+  console.log(11111)
     axios.get('http://localhost:3000/trades/?type=Pay').then((res) => {
         let data = res.data
         let sumPay = 0;
@@ -16,6 +17,7 @@ function totalPay() {
 }
 
 function totalRevenue() {
+  console.log(22222)
     axios.get('http://localhost:3000/trades/?type=Revenue').then((res) => {
         let data = res.data
         let sumRevenue = 0;
@@ -31,6 +33,7 @@ function totalRevenue() {
 }
 
 async function totalMoney() {
+  console.log(3333)
     let sumRevenue = 0;
     let sumPay = 0;
     let totalMoney = 0;

@@ -14,8 +14,8 @@ function search() {
                         <td>${item.name}</td>
                         <td>${item.type}</td>
                         <td>${item.amount}</td>
-                        <td> <a class="btn btn-sm btn-primary" href="${item.id}">EDIT</a>
-                            <a class="btn btn-sm btn-primary" href="${item.id}">DELETE</a>
+                        <td> <a class="btn btn-sm btn-primary" onclick="findById(${item.id})">EDIT</a>
+                             <a class="btn btn-sm btn-primary" onclick="deleteTrade(${item.id})">DELETE</a>
                         </td>
                         
                     </tr>`
