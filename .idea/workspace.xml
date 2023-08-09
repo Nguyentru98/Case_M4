@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="311d42c6-8611-489b-b3fc-1155eb9b2d25" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/FE_ThuChi_M4_copy/src/home/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/FE_ThuChi_M4_copy/src/home/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FE_ThuChi_M4_copy/src/home/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/FE_ThuChi_M4_copy/src/home/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FE_ThuChi_M4_copy/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FE_ThuChi_M4_copy/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QL_ThuChi_M4_copy/C03-M4-QLTC" beforeDir="false" afterPath="$PROJECT_DIR$/QL_ThuChi_M4_copy/C03-M4-QLTC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QL_ThuChi_M4_copy/C03-M4-QLTC/src/controller/userController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/QL_ThuChi_M4_copy/C03-M4-QLTC/src/controller/userController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QL_ThuChi_M4_copy/C03-M4-QLTC/src/router/Router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/QL_ThuChi_M4_copy/C03-M4-QLTC/src/router/Router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QL_ThuChi_M4_copy/C03-M4-QLTC/src/router/userRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/QL_ThuChi_M4_copy/C03-M4-QLTC/src/router/userRouter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QL_ThuChi_M4_copy/C03-M4-QLTC/src/service/userService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/QL_ThuChi_M4_copy/C03-M4-QLTC/src/service/userService.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Tj7adzrcoCIwtHQxBwj68n3xVz" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/WorkSpace/CodeGym/Modull_4/Case_M4_2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="311d42c6-8611-489b-b3fc-1155eb9b2d25" name="Changes" comment="" />
+      <created>1691544700799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691544700799</updated>
+      <workItem from="1691544702035" duration="682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

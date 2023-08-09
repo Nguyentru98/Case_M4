@@ -5,7 +5,7 @@ function registerUser() {
         currentMoney: document.getElementById('currentMoney').value,
     };
 
-    axios.post('http://localhost:3000/register', data).then(res => {
+    axios.post('http://localhost:3000/user/register', data).then(res => {
         alert('Đăng ký thành công!');
         loadLogin()
     }).catch(error => {
@@ -15,7 +15,7 @@ function registerUser() {
 }
 
 function registerForm(){
-    document.getElementById('display').innerHTML = `<div class="container-xxl position-relative bg-white d-flex p-0">
+    document.getElementById('displayLogin').innerHTML = `<div class="container-xxl position-relative bg-white d-flex p-0">
      
         <!-- Sign Up Start -->
         <div class="container-fluid">
@@ -23,9 +23,7 @@ function registerForm(){
                 <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
                     <div class="bg-light rounded p-4 p-sm-5 my-4 mx-3">
                         <div class="d-flex align-items-center justify-content-between mb-3">
-                            <a href="index.html" class="">
-                                <h3 class="text-primary"><i class="fa fa-hashtag me-2"></i>DASHMIN</h3>
-                            </a>
+                         
                             <h3>Sign Up</h3>
                         </div>
                         <div class="form-floating mb-3">
@@ -35,18 +33,11 @@ function registerForm(){
                         <div class="form-floating mb-4">
                             <input type="password" class="form-control" id="password" placeholder="Password">
                             <label for="floatingPassword">Password</label>
-                        </div>
-                        <div class="form-floating mb-4">
-                            <input type="password" class="form-control" id="currentMoney" placeholder="So tien hien tai">
-                            <label for="floatingPassword">Current Money</label>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-between mb-4">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        </div>                      
+                            <button onclick="registerUser()"  class="btn btn-primary py-3 w-100 mb-4">register</button>
+                            <hr>
+                            <button onclick="loadLogin()"  class="btn btn-primary py-3 w-100 mb-4">Sign In</button>
                             
-                            </div>
-                            <button onclick="registerUser()">Sign in</button>
-                        </div>
                        
                     </div>
                 </div>
